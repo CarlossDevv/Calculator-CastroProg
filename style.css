@@ -1,0 +1,86 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, #eb92eb, #ffef78, #63c9b4);
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    justify-content: center;
+}
+
+.box{
+    position: absolute;
+    background-color: #2e2e2e88;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 16px;
+
+    box-shadow: 0 4px 30px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+
+    transition: all 0.3s;
+}
+
+button:hover{
+    background: #dbdbdb;
+}
+
+.igual{
+    height: 102px;
+    background: #f5daf5;
+    transition: all 0.3s;
+}
+
+.igual:hover{
+    background: #e3fff9;
+    box-shadow: 0 0px 16px rgba(0, 0, 0, 0.5);
+}
+
+.igual:active{
+    background: #ffef78;
+}
+
+.zero{
+    width: 102px;
+    background: #f5daf5;
+    transition: all 0.3s;
+}
+
+.zero:hover{
+    background: #e3fff9;
+    box-shadow: 0 0px 16px rgba(0, 0, 0, 0.5);
+}
+
+.zero:active{
+    background: #ffef78;
+}
+
+
+.box-calculator{
+    height: 40px;
+    background: #fff;
+    color: #000000;
+
+    font-size: 25px;
+    line-height: 40px;
+    text-align: right;
+    margin: 3px;
+}
